@@ -38,6 +38,11 @@ header {
     min-height: 500px;
 }
 
+/*! da inserire via Bootstrap */
+.card {
+    border: none;
+}
+
 
 #ps5 {
     border: 1px solid blue;
