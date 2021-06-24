@@ -13,13 +13,30 @@
 
 
 header{
-    height: 100px;
     border: 1px solid red;
 }
 
+.img-sony{
+    width: 50px;
+    height: 30px;
+}
+
 .jumbo{
-    height: 500px;
     border: 3px solid green;
+    background-image: url('/img/returnal-listing-thumb-01-ps5.jpg');
+    background-position: right;
+    background-size:cover;
+    min-height: 500px;
+    
+    
+}
+
+.returnal-desc{
+
+}
+.jumbo img{
+    max-width: 400px;
+    
 }
 
 #ps5{
