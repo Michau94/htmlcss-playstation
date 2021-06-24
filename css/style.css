@@ -15,6 +15,13 @@ header {
     border: 1px solid red;
 }
 
+
+
+main{
+    padding-top: 50px;
+    
+}
+
 .img-sony {
     width: 50px;
     height: 30px;
@@ -22,10 +29,10 @@ header {
 
 .jumbo {
     border: 3px solid green;
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    background-position: right;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
     background-size: cover;
-    background-position-x: 100%;
+    background-position-x: center;
     min-height: 500px;
 }
 
