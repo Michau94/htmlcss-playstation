@@ -20,6 +20,16 @@
     background-color: #101634;
 }
 
+/* MAIN */
+
+#new-games img {
+    padding: 2px;
+}
+
+#new-games img:hover{
+    box-shadow: 0 0 0 2px #00439c;
+}
+
 main {
     padding-top: 50px;
 }
