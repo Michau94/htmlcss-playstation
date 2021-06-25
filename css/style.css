@@ -6,17 +6,18 @@
     box-sizing: border-box;
 }
 
+/* UTILS */
+
 .bg-blue {
     background-color: #00439c;
 }
 
-/* [class*="col"] {
-    border: 1px solid yellowgreen;
-    min-height: 50px;
-} */
+.bg-grey {
+    background-color: #bebcbb;
+}
 
-header {
-    border: 1px solid red;
+.bg-darkblue {
+    background-color: #101634;
 }
 
 main {
@@ -29,7 +30,6 @@ main {
 }
 
 .jumbo {
-    border: 3px solid green;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
@@ -46,17 +46,11 @@ main {
     min-height: 500px;
 }
 
-
 /*! da inserire via Bootstrap */
 
 .card {
     border: none;
 }
-
-#ps5 {
-    border: 1px solid blue;
-}
-
 
 footer ul {
     list-style-type: none;
@@ -67,11 +61,10 @@ footer a {
     color: white;
 }
 
-footer a:hover{
+footer a:hover {
     text-decoration: underline;
     color: white;
 }
-
 
 .globe {
     width: 20px;
