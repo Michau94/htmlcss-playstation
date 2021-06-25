@@ -27,13 +27,17 @@
     height: 30px;
 }
 
+nav .access:hover {
+    box-shadow: 0 0 0 2px white inset;
+}
+
 /* MAIN */
 
 #new-games img {
     padding: 2px;
 }
 
-#new-games img:hover{
+#new-games img:hover {
     box-shadow: 0 0 0 2px #00439c;
 }
 
@@ -41,12 +45,16 @@ main {
     padding-top: 50px;
 }
 
-#ps5-acc img {
-    opacity:0.5;
+#ps5 button:hover {
+    box-shadow: 0 0 0 2px white inset;
 }
 
-#ps5-acc img:hover{
-    opacity:1;
+#ps5-acc img {
+    opacity: 0.5;
+}
+
+#ps5-acc img:hover {
+    opacity: 1;
 }
 
 .jumbo {
@@ -55,6 +63,10 @@ main {
     background-size: cover;
     background-position-x: center;
     min-height: 500px;
+}
+
+.jumbo button:hover, .jumbo-2 button:hover, #ps4 a:hover {
+    box-shadow: 0 0 0 2px white inset;
 }
 
 .jumbo-2 {
