@@ -16,7 +16,7 @@
     border-radius: 20px;
 }
 
-.font-10px{
+.font-10px {
     font-size: 10px;
 }
 
@@ -70,12 +70,11 @@ main {
 }
 
 .icon::before {
-    content: '';
     display: inline-block;
 }
 
 .registered::after {
-    font-family: "Font Awesome 5 Free";
+    font-family:"Font Awesome 5 Free";
     content: "\f25d";
     font-size: 10px;
 }
