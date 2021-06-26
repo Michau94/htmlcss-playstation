@@ -12,6 +12,10 @@
     background-color: #101634;
 }
 
+.rounded-max{
+    border-radius:20px; 
+}
+
 /* HEADER */
 
 .img-sony {
@@ -32,11 +36,15 @@ nav .access:hover {
 
 #new-games img {
     padding: 2px;
+    transition: transform .5s ease;
 }
 
 #new-games img:hover {
     box-shadow: 0 0 0 2px #00439c;
+    transform: translateY(-10%);
 }
+
+
 
 main {
     padding-top: 50px;
