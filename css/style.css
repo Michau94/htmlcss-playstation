@@ -53,9 +53,10 @@ main {
 #ps5-acc .acc:hover {
     opacity: 1;
 }
- #ps5-acc .selected{
-     opacity: 1; 
- }
+
+#ps5-acc .selected {
+    opacity: 1;
+}
 
 .jumbo {
     background-image: url(../img/jumbo-bg.png);
@@ -76,6 +77,14 @@ main {
     background-repeat: no-repeat;
     background-position-x: center;
     min-height: 500px;
+}
+
+#ps-plus button:hover {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .5) ;
+}
+
+#ps-now button:hover {
+    box-shadow: 0 0 0 2px #101634 inset;
 }
 
 /* FOOTER */
