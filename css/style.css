@@ -12,10 +12,13 @@
     background-color: #101634;
 }
 
-.rounded-max{
-    border-radius:20px; 
+.rounded-max {
+    border-radius: 20px;
 }
 
+.font-10px{
+    font-size: 10px;
+}
 
 /* HEADER */
 
@@ -42,7 +45,7 @@ nav .access:hover {
 
 #new-games img:hover {
     box-shadow: 0 0 0 2px #00439c;
-    transform: translateY(-10%);
+    transform: translateY(-5%);
 }
 
 main {
@@ -55,6 +58,7 @@ main {
 
 #ps5-acc .acc {
     opacity: 0.5;
+    transition: opacity 0.5s ease;
 }
 
 #ps5-acc .acc:hover {
@@ -63,6 +67,17 @@ main {
 
 #ps5-acc .selected {
     opacity: 1;
+}
+
+.icon::before {
+    content: '';
+    display: inline-block;
+}
+
+.registered::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f25d";
+    font-size: 10px;
 }
 
 .jumbo {
@@ -87,7 +102,7 @@ main {
 }
 
 #ps-plus button:hover {
-    box-shadow: 0 0 0 3px rgba(255, 255, 255, .5) ;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .5);
 }
 
 #ps-now button:hover {
