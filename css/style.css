@@ -84,7 +84,7 @@ main {
     background-position: center;
     background-size: cover;
     background-position-x: center;
-    min-height: 500px;
+    height: 500px;
 }
 
 .jumbo button:hover, .jumbo-2 button:hover, #ps4 a:hover {
@@ -97,11 +97,11 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
-    min-height: 500px;
+    height: 500px;
 }
 
 #ps-plus button:hover {
-    box-shadow: 0 0 0 3px rgba(255, 255, 255, .5);
+    box-shadow: 0 0 2px 3px rgba(255, 255, 255, .5);
 }
 
 #ps-now button:hover {
