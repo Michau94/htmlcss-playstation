@@ -22,21 +22,18 @@
 
 /* HEADER */
 
-header{
+header {
     animation: fromtop .5s ease-out;
 }
 
 @keyframes fromtop {
-    from{
+    from {
         transform: translateY(-100%);
     }
-    to{
+    to {
         transform: translate(0);
     }
 }
-
-
-
 
 .img-sony {
     width: 50px;
@@ -52,13 +49,6 @@ nav .access:hover {
     filter: brightness(1.2);
 }
 
-.menu-hardware {
-    height: 100px;
-    background-color: white;
-    display: none;
-    position: relative;
-}
-
 /* MAIN */
 
 #new-games img {
@@ -66,30 +56,23 @@ nav .access:hover {
     transition: transform .5s ease;
 }
 
-#new-games{
+#new-games {
     animation: fromleft 1.5s ease-in;
-
 }
 
 @keyframes fromleft {
     from {
         transform: translateX(-100%);
-
     }
-    to{
+    to {
         transform: translateX(0);
     }
-    
 }
 
 #new-games img:hover {
     box-shadow: 0 0 0 2px #00439c;
     transform: translateY(-5%);
 }
-
-
-
-
 
 main {
     padding-top: 50px;
