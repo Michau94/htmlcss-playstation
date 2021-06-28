@@ -147,6 +147,19 @@ main {
     padding-top: 50px;
 }
 
+
+#nuove-uscite img:hover{
+    animation: bounce .4s ease-in alternate-reverse infinite;
+}
+
+@keyframes bounce {
+    from{
+        transform: translateY(-10%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
 #ps5 button:hover {
     box-shadow: 0 0 0 2px white inset;
 }
