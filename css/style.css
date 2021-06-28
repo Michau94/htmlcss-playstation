@@ -57,7 +57,7 @@ nav .access:hover {
     top: 80%;
     left: 0;
     background-color: #f9f9f9;
-    width: 99vw;
+    width: 100vw;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 20px 0;
     z-index: 1;
@@ -92,27 +92,58 @@ nav .access:hover {
     transition: transform .5s ease;
 }
 
-#new-games {
-    animation: fromleft 1.5s ease-in;
-}
-
-@keyframes fromleft {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(0);
-    }
+#new-games img {
+    animation: appear 1.5s ease-in backwards;
 }
 
 #new-games img:hover {
-    box-shadow: 0 0 0 2px #00439c;
     transform: translateY(-5%);
+}
+
+.circle {
+    box-shadow: 0 0 0 2px #00439c;
+}
+
+#new-games .game1 {
+    animation-delay: .2s;
+}
+
+#new-games .game2 {
+    animation-delay: .4s;
+}
+
+#new-games .game3 {
+    animation-delay: .6s;
+}
+
+#new-games .game4 {
+    animation-delay: .8s;
+}
+
+#new-games .game5 {
+    animation-delay: 1s;
+}
+
+#new-games .game6 {
+    animation-delay: 1.2s;
+}
+
+@keyframes appear {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 main {
     padding-top: 50px;
 }
+
+.circle {}
 
 #ps5 button:hover {
     box-shadow: 0 0 0 2px white inset;
