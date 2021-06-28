@@ -23,15 +23,17 @@
 /* HEADER */
 
 header {
-    animation: fromtop .5s ease-out;
+    animation: fromtop 1s ease-out;
 }
 
 @keyframes fromtop {
     from {
         transform: translateY(-100%);
+        opacity: 0;
     }
     to {
         transform: translate(0);
+        opacity: 1;
     }
 }
 
@@ -66,7 +68,12 @@ nav .access:hover {
 }
 
 .play7 {
+    height: 30px;
+}
+
+.service {
     height: 40px;
+    filter: drop-shadow(0 0 5px #00439c)
 }
 
 .dropdown-content ul, .dropdown-hardware ul, .dropdown-servizi ul {
