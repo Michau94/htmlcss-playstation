@@ -56,7 +56,7 @@ nav .access:hover {
 }
 
 .dropdown-content, .dropdown-hardware, .dropdown-servizi {
-    display: none; 
+    display: none;
     position: absolute;
     top: 80%;
     left: 0;
@@ -64,14 +64,12 @@ nav .access:hover {
     width: 100vw;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 20px 0;
-    z-index: 1;  
+    z-index: 1;
 }
 
 .supporto:hover .dropdown-content, .hardware:hover .dropdown-hardware, .servizi:hover .dropdown-servizi {
-     display: block; 
-
+    display: block;
 }
-
 
 .play7 {
     height: 30px;
@@ -186,6 +184,21 @@ main {
 
 .jumbo button:hover, .jumbo-2 button:hover, #ps4 a:hover {
     box-shadow: 0 0 0 2px white inset;
+}
+
+.jumbo .returnal-desc {
+    animation: fromleft 2s;
+}
+
+@keyframes fromleft {
+    from{
+        transform: translateX(-100%);
+
+    }
+    to{
+        transform: translateX(0);
+    }
+    
 }
 
 .jumbo-2 {
