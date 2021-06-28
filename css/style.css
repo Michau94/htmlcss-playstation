@@ -49,7 +49,7 @@ nav .access:hover {
     filter: brightness(1.2);
 }
 
-.dropdown-content, .dropdown-hardware {
+.dropdown-content, .dropdown-hardware, .dropdown-servizi {
     display: none;
     position: absolute;
     top: 80%;
@@ -61,7 +61,7 @@ nav .access:hover {
     z-index: 1;
 }
 
-.supporto:hover .dropdown-content, .hardware:hover .dropdown-hardware{
+.supporto:hover .dropdown-content, .hardware:hover .dropdown-hardware, .servizi:hover .dropdown-servizi {
     display: block;
 }
 
@@ -69,11 +69,11 @@ nav .access:hover {
     height: 40px;
 }
 
-.dropdown-content ul, .dropdown-hardware ul {
+.dropdown-content ul, .dropdown-hardware ul, .dropdown-servizi ul {
     list-style-type: none;
 }
 
-.dropdown-content a, .dropdown-hardware a {
+.dropdown-content a, .dropdown-hardware a, .dropdown-servizi a {
     text-decoration: none;
     color: #101634;
 }
