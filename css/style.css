@@ -101,7 +101,7 @@ nav .access:hover {
 }
 
 #new-games img:hover {
-    transform: translateY(-5%);
+    transform: translateY(-10%);
 }
 
 .circle {
@@ -174,12 +174,17 @@ main {
     font-size: 10px;
 }
 
+.jumbotron {
+    background-size: cover;
+    background-position-x: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
 .jumbo {
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
-    background-size: cover;
-    background-position-x: center;
-    min-height: 500px;
 }
 
 .jumbo button:hover, .jumbo-2 button:hover, #ps4 a:hover {
@@ -191,23 +196,16 @@ main {
 }
 
 @keyframes fromleft {
-    from{
+    from {
         transform: translateX(-100%);
-
     }
-    to{
+    to {
         transform: translateX(0);
     }
-    
 }
 
 .jumbo-2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: right;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    min-height: 500px;
 }
 
 #ps-plus button:hover {
